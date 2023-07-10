@@ -9,7 +9,7 @@ fn main() {
     let eps = 1e-3;
     let learning_rate = 1e-3;
     println!("eps: {eps}");
-    println!("=================");
+    println!("==================git");
     for _ in 0..1000 {
         let cost_with_epsilon = cost(weight + eps, training_set);
         let cost = cost(weight, training_set);
